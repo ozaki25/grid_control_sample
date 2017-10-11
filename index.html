@@ -1,0 +1,125 @@
+<meta charset="utf-8">
+<title>Grid Sample</title>
+<style>.limit-height { max-height: 150px; } .control-table-position { margin-bottom: 20px; }</style>
+<link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+<script src="./jquery.js"></script>
+<script src="./bootstrap/js/bootstrap.js"></script>
+<div class="container">
+  <div class="row">
+    <div class="col-md-offset-2 col-md-8">
+      <div class="table-responsive limit-height control-table-position">
+        <table class="table table-bordered text-nowrap">
+          <thead>
+            <tr>
+              <th>選手名</th><th>打率</th><th>試合</th><th>打席</th><th>打数</th><th>安打</th><th>二塁打</th><th>三塁打</th><th>本塁打</th><th>塁打</th><th>打点</th><th>得点</th><th>三振</th><th>四球</th><th>死球</th><th>犠打</th><th>犠飛</th><th>盗塁</th><th>盗塁死</th><th>併殺打</th><th>出塁率</th><th>長打率</th><th>OPS</th><th>得点圏</th><th>失策</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>秋山 翔吾</td><td>.322</td><td>143</td><td>659</td><td>575</td><td>185</td><td>38</td><td>5</td><td>25</td><td>308</td><td>89</td><td>106</td><td>97</td><td>72</td><td>5</td><td>0</td><td>7</td><td>16</td><td>5</td><td>4</td><td>.398</td><td>.536</td><td>.933</td><td>.318</td><td>3</td>
+            </tr>
+            <tr>
+              <td>柳田 悠岐</td><td>.310</td><td>130</td><td>551</td><td>448</td><td>139</td><td>30</td><td>1</td><td>31</td><td>264</td><td>99</td><td>95</td><td>123</td><td>89</td><td>7</td><td>0</td><td>7</td><td>14</td><td>7</td><td>6</td><td>.426</td><td>.589</td><td>1.016</td><td>.379</td><td>1</td>
+            </tr>
+            <tr>
+              <td>茂木 栄五郎</td><td>.2964</td><td>103</td><td>450</td><td>398</td><td>118</td><td>25</td><td>2</td><td>17</td><td>198</td><td>47</td><td>64</td><td>84</td><td>45</td><td>2</td><td>4</td><td>1</td><td>3</td><td>2</td><td>4</td><td>.370</td><td>.497</td><td>.867</td><td>.236</td><td>8</td>
+            </tr>
+            <tr>
+              <td>西川 遥輝</td><td>.2957</td><td>138</td><td>623</td><td>541</td><td>160</td><td>26</td><td>6</td><td>9</td><td>225</td><td>44</td><td>82</td><td>103</td><td>69</td><td>4</td><td>6</td><td>3</td><td>39</td><td>5</td><td>6</td><td>.378</td><td>.416</td><td>.794</td><td>.286</td><td>2</td>
+            </tr>
+            <tr>
+              <td>銀次</td><td>.293</td><td>143</td><td>590</td><td>529</td><td>155</td><td>30</td><td>0</td><td>3</td><td>194</td><td>60</td><td>55</td><td>74</td><td>56</td><td>2</td><td>1</td><td>2</td><td>2</td><td>1</td><td>11</td><td>.362</td><td>.367</td><td>.728</td><td>.369</td><td>4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="table-responsive limit-height control-table-position">
+    <table class="table table-bordered text-nowrap">
+      <thead>
+        <tr>
+          <th>選手名</th><th>打率</th><th>試合</th><th>打席</th><th>打数</th><th>安打</th><th>二塁打</th><th>三塁打</th><th>本塁打</th><th>塁打</th><th>打点</th><th>得点</th><th>三振</th><th>四球</th><th>死球</th><th>犠打</th><th>犠飛</th><th>盗塁</th><th>盗塁死</th><th>併殺打</th><th>出塁率</th><th>長打率</th><th>OPS</th><th>得点圏</th><th>失策</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>秋山 翔吾</td><td>.322</td><td>143</td><td>659</td><td>575</td><td>185</td><td>38</td><td>5</td><td>25</td><td>308</td><td>89</td><td>106</td><td>97</td><td>72</td><td>5</td><td>0</td><td>7</td><td>16</td><td>5</td><td>4</td><td>.398</td><td>.536</td><td>.933</td><td>.318</td><td>3</td>
+        </tr>
+        <tr>
+          <td>柳田 悠岐</td><td>.310</td><td>130</td><td>551</td><td>448</td><td>139</td><td>30</td><td>1</td><td>31</td><td>264</td><td>99</td><td>95</td><td>123</td><td>89</td><td>7</td><td>0</td><td>7</td><td>14</td><td>7</td><td>6</td><td>.426</td><td>.589</td><td>1.016</td><td>.379</td><td>1</td>
+        </tr>
+        <tr>
+          <td>茂木 栄五郎</td><td>.2964</td><td>103</td><td>450</td><td>398</td><td>118</td><td>25</td><td>2</td><td>17</td><td>198</td><td>47</td><td>64</td><td>84</td><td>45</td><td>2</td><td>4</td><td>1</td><td>3</td><td>2</td><td>4</td><td>.370</td><td>.497</td><td>.867</td><td>.236</td><td>8</td>
+        </tr>
+        <tr>
+          <td>西川 遥輝</td><td>.2957</td><td>138</td><td>623</td><td>541</td><td>160</td><td>26</td><td>6</td><td>9</td><td>225</td><td>44</td><td>82</td><td>103</td><td>69</td><td>4</td><td>6</td><td>3</td><td>39</td><td>5</td><td>6</td><td>.378</td><td>.416</td><td>.794</td><td>.286</td><td>2</td>
+        </tr>
+        <tr>
+          <td>銀次</td><td>.293</td><td>143</td><td>590</td><td>529</td><td>155</td><td>30</td><td>0</td><td>3</td><td>194</td><td>60</td><td>55</td><td>74</td><td>56</td><td>2</td><td>1</td><td>2</td><td>2</td><td>1</td><td>11</td><td>.362</td><td>.367</td><td>.728</td><td>.369</td><td>4</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="panel panel-primary">
+    <div class="panel-heading">タイトル</div>
+    <div class="table-responsive limit-height control-table-position">
+      <table class="table table-bordered text-nowrap">
+        <thead>
+          <tr>
+            <th>選手名</th><th>打率</th><th>試合</th><th>打席</th><th>打数</th><th>安打</th><th>二塁打</th><th>三塁打</th><th>本塁打</th><th>塁打</th><th>打点</th><th>得点</th><th>三振</th><th>四球</th><th>死球</th><th>犠打</th><th>犠飛</th><th>盗塁</th><th>盗塁死</th><th>併殺打</th><th>出塁率</th><th>長打率</th><th>OPS</th><th>得点圏</th><th>失策</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>秋山 翔吾</td><td>.322</td><td>143</td><td>659</td><td>575</td><td>185</td><td>38</td><td>5</td><td>25</td><td>308</td><td>89</td><td>106</td><td>97</td><td>72</td><td>5</td><td>0</td><td>7</td><td>16</td><td>5</td><td>4</td><td>.398</td><td>.536</td><td>.933</td><td>.318</td><td>3</td>
+          </tr>
+          <tr>
+            <td>柳田 悠岐</td><td>.310</td><td>130</td><td>551</td><td>448</td><td>139</td><td>30</td><td>1</td><td>31</td><td>264</td><td>99</td><td>95</td><td>123</td><td>89</td><td>7</td><td>0</td><td>7</td><td>14</td><td>7</td><td>6</td><td>.426</td><td>.589</td><td>1.016</td><td>.379</td><td>1</td>
+          </tr>
+          <tr>
+            <td>茂木 栄五郎</td><td>.2964</td><td>103</td><td>450</td><td>398</td><td>118</td><td>25</td><td>2</td><td>17</td><td>198</td><td>47</td><td>64</td><td>84</td><td>45</td><td>2</td><td>4</td><td>1</td><td>3</td><td>2</td><td>4</td><td>.370</td><td>.497</td><td>.867</td><td>.236</td><td>8</td>
+          </tr>
+          <tr>
+            <td>西川 遥輝</td><td>.2957</td><td>138</td><td>623</td><td>541</td><td>160</td><td>26</td><td>6</td><td>9</td><td>225</td><td>44</td><td>82</td><td>103</td><td>69</td><td>4</td><td>6</td><td>3</td><td>39</td><td>5</td><td>6</td><td>.378</td><td>.416</td><td>.794</td><td>.286</td><td>2</td>
+          </tr>
+          <tr>
+            <td>銀次</td><td>.293</td><td>143</td><td>590</td><td>529</td><td>155</td><td>30</td><td>0</td><td>3</td><td>194</td><td>60</td><td>55</td><td>74</td><td>56</td><td>2</td><td>1</td><td>2</td><td>2</td><td>1</td><td>11</td><td>.362</td><td>.367</td><td>.728</td><td>.369</td><td>4</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="panel-body">
+      <div class="table-responsive limit-height control-table-position">
+        <table class="table table-bordered text-nowrap">
+          <thead>
+            <tr>
+              <th>選手名</th><th>打率</th><th>試合</th><th>打席</th><th>打数</th><th>安打</th><th>二塁打</th><th>三塁打</th><th>本塁打</th><th>塁打</th><th>打点</th><th>得点</th><th>三振</th><th>四球</th><th>死球</th><th>犠打</th><th>犠飛</th><th>盗塁</th><th>盗塁死</th><th>併殺打</th><th>出塁率</th><th>長打率</th><th>OPS</th><th>得点圏</th><th>失策</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>秋山 翔吾</td><td>.322</td><td>143</td><td>659</td><td>575</td><td>185</td><td>38</td><td>5</td><td>25</td><td>308</td><td>89</td><td>106</td><td>97</td><td>72</td><td>5</td><td>0</td><td>7</td><td>16</td><td>5</td><td>4</td><td>.398</td><td>.536</td><td>.933</td><td>.318</td><td>3</td>
+            </tr>
+            <tr>
+              <td>柳田 悠岐</td><td>.310</td><td>130</td><td>551</td><td>448</td><td>139</td><td>30</td><td>1</td><td>31</td><td>264</td><td>99</td><td>95</td><td>123</td><td>89</td><td>7</td><td>0</td><td>7</td><td>14</td><td>7</td><td>6</td><td>.426</td><td>.589</td><td>1.016</td><td>.379</td><td>1</td>
+            </tr>
+            <tr>
+              <td>茂木 栄五郎</td><td>.2964</td><td>103</td><td>450</td><td>398</td><td>118</td><td>25</td><td>2</td><td>17</td><td>198</td><td>47</td><td>64</td><td>84</td><td>45</td><td>2</td><td>4</td><td>1</td><td>3</td><td>2</td><td>4</td><td>.370</td><td>.497</td><td>.867</td><td>.236</td><td>8</td>
+            </tr>
+            <tr>
+              <td>西川 遥輝</td><td>.2957</td><td>138</td><td>623</td><td>541</td><td>160</td><td>26</td><td>6</td><td>9</td><td>225</td><td>44</td><td>82</td><td>103</td><td>69</td><td>4</td><td>6</td><td>3</td><td>39</td><td>5</td><td>6</td><td>.378</td><td>.416</td><td>.794</td><td>.286</td><td>2</td>
+            </tr>
+            <tr>
+              <td>銀次</td><td>.293</td><td>143</td><td>590</td><td>529</td><td>155</td><td>30</td><td>0</td><td>3</td><td>194</td><td>60</td><td>55</td><td>74</td><td>56</td><td>2</td><td>1</td><td>2</td><td>2</td><td>1</td><td>11</td><td>.362</td><td>.367</td><td>.728</td><td>.369</td><td>4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</div>
