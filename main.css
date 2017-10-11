@@ -4,3 +4,7 @@
 .control-table-position {
   margin-bottom: 20px;
 }
+
+.table-responsive-overflow-y {
+  overflow-y: auto;
+}
