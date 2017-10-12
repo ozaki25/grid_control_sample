@@ -13,8 +13,9 @@
 }
 
 .table-scrollable > table {
-  margin-bottom: 0;
   border: 0;
+  margin-bottom: 0;
+  table-layout: fixed;
 }
 
 .table-scrollable thead {
@@ -22,8 +23,7 @@
   top: 0;
 }
 
-.table-scrollable th,
-.table-scrollable td {
+.table-scrollable th {
   max-width: 100px;
   min-width: 100px;
   overflow-x: hidden;
