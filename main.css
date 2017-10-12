@@ -1,10 +1,21 @@
-.limit-height {
+/* このmax-heightより大きいと縦スクロールが出る */
+.tbody-max-height {
   max-height: 140px;
 }
-.control-table-position {
-  margin-bottom: 20px;
+
+/* table-responsiveの定義を上書いて高さがを溢れたらスクロールさせる */
+.tbody-overflow-y {
+  overflow-y: scroll;
 }
 
-.table-responsive-overflow-y {
-  overflow-y: auto;
+/* 横幅を固定することでヘッダーとボディの幅を揃える */
+.table-responsive th,
+.table-responsive td {
+  max-width: 100px;
+  min-width: 100px;
+  overflow-x: hidden;
+}
+
+.block {
+  display: block;
 }
