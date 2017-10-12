@@ -8,8 +8,8 @@
 .table-scrollable {
   overflow-x: hidden;
   overflow-y: scroll;
-  height: 120px;
-  width: 2500;
+  height: 180px;
+  width: 2600;
 }
 
 .table-scrollable > table {
