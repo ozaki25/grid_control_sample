@@ -1,6 +1,6 @@
 /* このmax-heightより大きいと縦スクロールが出る */
 .tbody-max-height {
-  max-height: 140px;
+  max-height: 100px;
 }
 
 /* table-responsiveの定義を上書いて高さがを溢れたらスクロールさせる */
@@ -14,6 +14,10 @@
   max-width: 100px;
   min-width: 100px;
   overflow-x: hidden;
+}
+
+.table-responsive > table {
+  margin-bottom: 0;
 }
 
 .block {
