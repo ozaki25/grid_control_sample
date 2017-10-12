@@ -1,25 +1,30 @@
-/* このmax-heightより大きいと縦スクロールが出る */
-.tbody-max-height {
-  max-height: 100px;
+.table-scrollable-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: relative;
+  padding-top: 40px;
 }
 
-/* table-responsiveの定義を上書いて高さがを溢れたらスクロールさせる */
-.tbody-overflow-y {
+.table-scrollable {
+  overflow-x: hidden;
   overflow-y: scroll;
+  height: 120px;
+  width: 2500;
 }
 
-/* 横幅を固定することでヘッダーとボディの幅を揃える */
-.table-responsive th,
-.table-responsive td {
+.table-scrollable > table {
+  margin-bottom: 0;
+  border: 0;
+}
+
+.table-scrollable thead {
+  position: absolute;
+  top: 0;
+}
+
+.table-scrollable th,
+.table-scrollable td {
   max-width: 100px;
   min-width: 100px;
   overflow-x: hidden;
-}
-
-.table-responsive > table {
-  margin-bottom: 0;
-}
-
-.block {
-  display: block;
 }
